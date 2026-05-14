@@ -1,0 +1,1254 @@
+{
+  "timestamp": "2026-05-14T16:30:12.957690",
+  "task03_summary": {
+    "timestamp": "2026-05-14T16:28:11.359132",
+    "processed_images": 80,
+    "average_fps": 54.79721983647497,
+    "average_human_count": 20.7875,
+    "average_car_count": 2.4375,
+    "weights": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/runs/human_car_yolov8n/weights/best.pt",
+    "source": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-test-dev/images",
+    "prediction_outputs": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_03_detection_count/prediction_outputs",
+    "counting_visualization": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_03_detection_count/counting_visualization",
+    "frames": [
+      {
+        "file": "0000006_00159_d_0000001.jpg",
+        "human_count": 0,
+        "car_count": 24,
+        "detections": 24,
+        "fps": 17.776842952863042
+      },
+      {
+        "file": "0000006_00611_d_0000002.jpg",
+        "human_count": 2,
+        "car_count": 25,
+        "detections": 27,
+        "fps": 54.039691180457574
+      },
+      {
+        "file": "0000006_01111_d_0000003.jpg",
+        "human_count": 4,
+        "car_count": 11,
+        "detections": 15,
+        "fps": 53.613314931098834
+      },
+      {
+        "file": "0000006_01275_d_0000004.jpg",
+        "human_count": 1,
+        "car_count": 14,
+        "detections": 15,
+        "fps": 58.78419586894046
+      },
+      {
+        "file": "0000006_01659_d_0000004.jpg",
+        "human_count": 0,
+        "car_count": 5,
+        "detections": 5,
+        "fps": 56.241783426952246
+      },
+      {
+        "file": "0000006_02138_d_0000006.jpg",
+        "human_count": 0,
+        "car_count": 4,
+        "detections": 4,
+        "fps": 54.09109036982259
+      },
+      {
+        "file": "0000006_02616_d_0000007.jpg",
+        "human_count": 0,
+        "car_count": 0,
+        "detections": 0,
+        "fps": 56.21122514557432
+      },
+      {
+        "file": "0000006_03636_d_0000009.jpg",
+        "human_count": 0,
+        "car_count": 1,
+        "detections": 1,
+        "fps": 54.90520643561425
+      },
+      {
+        "file": "0000006_04050_d_0000010.jpg",
+        "human_count": 0,
+        "car_count": 0,
+        "detections": 0,
+        "fps": 57.56665628739902
+      },
+      {
+        "file": "0000006_04309_d_0000011.jpg",
+        "human_count": 0,
+        "car_count": 4,
+        "detections": 4,
+        "fps": 58.38521102604831
+      },
+      {
+        "file": "0000006_05168_d_0000013.jpg",
+        "human_count": 1,
+        "car_count": 12,
+        "detections": 13,
+        "fps": 59.28033671231323
+      },
+      {
+        "file": "0000006_05208_d_0000014.jpg",
+        "human_count": 1,
+        "car_count": 0,
+        "detections": 1,
+        "fps": 56.57975281098108
+      },
+      {
+        "file": "0000006_05575_d_0000016.jpg",
+        "human_count": 0,
+        "car_count": 1,
+        "detections": 1,
+        "fps": 56.63997507841123
+      },
+      {
+        "file": "0000006_05999_d_0000017.jpg",
+        "human_count": 0,
+        "car_count": 2,
+        "detections": 2,
+        "fps": 54.79927682490346
+      },
+      {
+        "file": "0000006_06773_d_0000018.jpg",
+        "human_count": 0,
+        "car_count": 0,
+        "detections": 0,
+        "fps": 53.75260364173881
+      },
+      {
+        "file": "0000006_07596_d_0000020.jpg",
+        "human_count": 1,
+        "car_count": 1,
+        "detections": 2,
+        "fps": 54.15773537913199
+      },
+      {
+        "file": "0000011_00234_d_0000001.jpg",
+        "human_count": 13,
+        "car_count": 1,
+        "detections": 14,
+        "fps": 54.9746325055765
+      },
+      {
+        "file": "0000011_01350_d_0000003.jpg",
+        "human_count": 3,
+        "car_count": 8,
+        "detections": 11,
+        "fps": 56.8001639025532
+      },
+      {
+        "file": "0000011_01955_d_0000004.jpg",
+        "human_count": 21,
+        "car_count": 2,
+        "detections": 23,
+        "fps": 55.692466201634424
+      },
+      {
+        "file": "0000011_02800_d_0000005.jpg",
+        "human_count": 14,
+        "car_count": 7,
+        "detections": 21,
+        "fps": 59.35540270088339
+      },
+      {
+        "file": "0000011_04202_d_0000007.jpg",
+        "human_count": 3,
+        "car_count": 0,
+        "detections": 3,
+        "fps": 57.908490108506655
+      },
+      {
+        "file": "0000011_05068_d_0000008.jpg",
+        "human_count": 6,
+        "car_count": 4,
+        "detections": 10,
+        "fps": 56.749395746621026
+      },
+      {
+        "file": "0000011_06000_d_0000009.jpg",
+        "human_count": 12,
+        "car_count": 1,
+        "detections": 13,
+        "fps": 56.99642843280557
+      },
+      {
+        "file": "0000011_06595_d_0000010.jpg",
+        "human_count": 7,
+        "car_count": 9,
+        "detections": 16,
+        "fps": 60.422657699057076
+      },
+      {
+        "file": "0000011_07307_d_0000011.jpg",
+        "human_count": 30,
+        "car_count": 0,
+        "detections": 30,
+        "fps": 58.160388087985204
+      },
+      {
+        "file": "0000011_08299_d_0000012.jpg",
+        "human_count": 6,
+        "car_count": 13,
+        "detections": 19,
+        "fps": 46.28763450839457
+      },
+      {
+        "file": "0000054_00786_d_0000001.jpg",
+        "human_count": 73,
+        "car_count": 1,
+        "detections": 74,
+        "fps": 56.80379367544256
+      },
+      {
+        "file": "0000063_00500_d_0000001.jpg",
+        "human_count": 38,
+        "car_count": 0,
+        "detections": 38,
+        "fps": 54.01463796689011
+      },
+      {
+        "file": "0000063_02235_d_0000003.jpg",
+        "human_count": 35,
+        "car_count": 0,
+        "detections": 35,
+        "fps": 60.78211508145445
+      },
+      {
+        "file": "0000063_03139_d_0000004.jpg",
+        "human_count": 41,
+        "car_count": 0,
+        "detections": 41,
+        "fps": 58.69161827347178
+      },
+      {
+        "file": "0000063_04000_d_0000005.jpg",
+        "human_count": 32,
+        "car_count": 0,
+        "detections": 32,
+        "fps": 59.239512755008434
+      },
+      {
+        "file": "0000063_05000_d_0000006.jpg",
+        "human_count": 19,
+        "car_count": 0,
+        "detections": 19,
+        "fps": 58.64228336162412
+      },
+      {
+        "file": "0000063_06000_d_0000007.jpg",
+        "human_count": 33,
+        "car_count": 0,
+        "detections": 33,
+        "fps": 61.84993017452129
+      },
+      {
+        "file": "0000063_07000_d_0000008.jpg",
+        "human_count": 35,
+        "car_count": 0,
+        "detections": 35,
+        "fps": 56.73866387028231
+      },
+      {
+        "file": "0000063_08000_d_0000009.jpg",
+        "human_count": 49,
+        "car_count": 0,
+        "detections": 49,
+        "fps": 55.71327985081416
+      },
+      {
+        "file": "0000063_08995_d_0000010.jpg",
+        "human_count": 18,
+        "car_count": 0,
+        "detections": 18,
+        "fps": 56.66270707669594
+      },
+      {
+        "file": "0000063_10000_d_0000011.jpg",
+        "human_count": 28,
+        "car_count": 0,
+        "detections": 28,
+        "fps": 44.46313477016271
+      },
+      {
+        "file": "0000063_11000_d_0000012.jpg",
+        "human_count": 30,
+        "car_count": 1,
+        "detections": 31,
+        "fps": 52.37281588991163
+      },
+      {
+        "file": "0000063_11817_d_0000013.jpg",
+        "human_count": 32,
+        "car_count": 0,
+        "detections": 32,
+        "fps": 60.51513752881903
+      },
+      {
+        "file": "0000063_12500_d_0000014.jpg",
+        "human_count": 41,
+        "car_count": 0,
+        "detections": 41,
+        "fps": 59.13339885708102
+      },
+      {
+        "file": "0000066_01097_d_0000002.jpg",
+        "human_count": 132,
+        "car_count": 0,
+        "detections": 132,
+        "fps": 59.53665597487483
+      },
+      {
+        "file": "0000073_00377_d_0000001.jpg",
+        "human_count": 22,
+        "car_count": 2,
+        "detections": 24,
+        "fps": 53.442832709557564
+      },
+      {
+        "file": "0000073_01275_d_0000002.jpg",
+        "human_count": 43,
+        "car_count": 0,
+        "detections": 43,
+        "fps": 56.927210364030806
+      },
+      {
+        "file": "0000073_03155_d_0000004.jpg",
+        "human_count": 41,
+        "car_count": 0,
+        "detections": 41,
+        "fps": 56.08223629936271
+      },
+      {
+        "file": "0000073_04009_d_0000005.jpg",
+        "human_count": 29,
+        "car_count": 0,
+        "detections": 29,
+        "fps": 53.43355187834231
+      },
+      {
+        "file": "0000073_05010_d_0000006.jpg",
+        "human_count": 39,
+        "car_count": 1,
+        "detections": 40,
+        "fps": 35.12644096125193
+      },
+      {
+        "file": "0000073_05999_d_0000007.jpg",
+        "human_count": 38,
+        "car_count": 0,
+        "detections": 38,
+        "fps": 49.1394454613582
+      },
+      {
+        "file": "0000074_01218_d_0000002.jpg",
+        "human_count": 60,
+        "car_count": 0,
+        "detections": 60,
+        "fps": 56.74684523007178
+      },
+      {
+        "file": "0000074_02723_d_0000005.jpg",
+        "human_count": 45,
+        "car_count": 0,
+        "detections": 45,
+        "fps": 57.364668286224514
+      },
+      {
+        "file": "0000074_03738_d_0000007.jpg",
+        "human_count": 47,
+        "car_count": 1,
+        "detections": 48,
+        "fps": 56.957608217889806
+      },
+      {
+        "file": "0000074_05715_d_0000011.jpg",
+        "human_count": 20,
+        "car_count": 2,
+        "detections": 22,
+        "fps": 56.532308214144884
+      },
+      {
+        "file": "0000074_06746_d_0000013.jpg",
+        "human_count": 8,
+        "car_count": 0,
+        "detections": 8,
+        "fps": 58.85093663913841
+      },
+      {
+        "file": "0000074_07297_d_0000014.jpg",
+        "human_count": 29,
+        "car_count": 4,
+        "detections": 33,
+        "fps": 57.59000237558665
+      },
+      {
+        "file": "0000074_07850_d_0000015.jpg",
+        "human_count": 40,
+        "car_count": 1,
+        "detections": 41,
+        "fps": 57.44732798115659
+      },
+      {
+        "file": "0000074_08202_d_0000016.jpg",
+        "human_count": 33,
+        "car_count": 1,
+        "detections": 34,
+        "fps": 58.18393396123442
+      },
+      {
+        "file": "0000074_08777_d_0000017.jpg",
+        "human_count": 18,
+        "car_count": 2,
+        "detections": 20,
+        "fps": 57.1374143960119
+      },
+      {
+        "file": "0000074_09738_d_0000019.jpg",
+        "human_count": 50,
+        "car_count": 0,
+        "detections": 50,
+        "fps": 55.89415614300755
+      },
+      {
+        "file": "0000074_10218_d_0000020.jpg",
+        "human_count": 34,
+        "car_count": 0,
+        "detections": 34,
+        "fps": 58.08072477310245
+      },
+      {
+        "file": "0000074_10730_d_0000021.jpg",
+        "human_count": 33,
+        "car_count": 2,
+        "detections": 35,
+        "fps": 56.26459257373742
+      },
+      {
+        "file": "0000074_11362_d_0000022.jpg",
+        "human_count": 26,
+        "car_count": 0,
+        "detections": 26,
+        "fps": 57.3984145639519
+      },
+      {
+        "file": "0000074_11827_d_0000023.jpg",
+        "human_count": 18,
+        "car_count": 1,
+        "detections": 19,
+        "fps": 57.773693049292625
+      },
+      {
+        "file": "0000074_12322_d_0000024.jpg",
+        "human_count": 25,
+        "car_count": 0,
+        "detections": 25,
+        "fps": 57.05862556954433
+      },
+      {
+        "file": "0000074_13313_d_0000026.jpg",
+        "human_count": 44,
+        "car_count": 0,
+        "detections": 44,
+        "fps": 57.06894144989244
+      },
+      {
+        "file": "0000074_13875_d_0000027.jpg",
+        "human_count": 27,
+        "car_count": 0,
+        "detections": 27,
+        "fps": 58.86233700430173
+      },
+      {
+        "file": "0000074_14850_d_0000029.jpg",
+        "human_count": 32,
+        "car_count": 0,
+        "detections": 32,
+        "fps": 57.889911565634186
+      },
+      {
+        "file": "0000074_15298_d_0000030.jpg",
+        "human_count": 30,
+        "car_count": 1,
+        "detections": 31,
+        "fps": 56.70956688692078
+      },
+      {
+        "file": "0000074_15793_d_0000031.jpg",
+        "human_count": 27,
+        "car_count": 0,
+        "detections": 27,
+        "fps": 57.087263934172874
+      },
+      {
+        "file": "0000074_16210_d_0000032.jpg",
+        "human_count": 27,
+        "car_count": 0,
+        "detections": 27,
+        "fps": 55.882049534518515
+      },
+      {
+        "file": "0000078_00490_d_0000002.jpg",
+        "human_count": 0,
+        "car_count": 12,
+        "detections": 12,
+        "fps": 57.183568576050995
+      },
+      {
+        "file": "0000078_01314_d_0000004.jpg",
+        "human_count": 0,
+        "car_count": 0,
+        "detections": 0,
+        "fps": 57.964992854076655
+      },
+      {
+        "file": "0000078_01938_d_0000006.jpg",
+        "human_count": 2,
+        "car_count": 3,
+        "detections": 5,
+        "fps": 58.60419459522806
+      },
+      {
+        "file": "0000078_02363_d_0000007.jpg",
+        "human_count": 0,
+        "car_count": 0,
+        "detections": 0,
+        "fps": 58.441654452847615
+      },
+      {
+        "file": "0000078_02778_d_0000008.jpg",
+        "human_count": 0,
+        "car_count": 6,
+        "detections": 6,
+        "fps": 59.80116233127217
+      },
+      {
+        "file": "0000078_03171_d_0000009.jpg",
+        "human_count": 3,
+        "car_count": 3,
+        "detections": 6,
+        "fps": 58.529018277558094
+      },
+      {
+        "file": "0000078_03315_d_0000010.jpg",
+        "human_count": 4,
+        "car_count": 0,
+        "detections": 4,
+        "fps": 58.7607349252117
+      },
+      {
+        "file": "0000078_03810_d_0000011.jpg",
+        "human_count": 6,
+        "car_count": 0,
+        "detections": 6,
+        "fps": 60.29529500136491
+      },
+      {
+        "file": "0000078_04210_d_0000012.jpg",
+        "human_count": 1,
+        "car_count": 0,
+        "detections": 1,
+        "fps": 58.722923227119466
+      },
+      {
+        "file": "0000078_04546_d_0000013.jpg",
+        "human_count": 1,
+        "car_count": 0,
+        "detections": 1,
+        "fps": 59.57138507580719
+      },
+      {
+        "file": "0000078_05467_d_0000015.jpg",
+        "human_count": 0,
+        "car_count": 0,
+        "detections": 0,
+        "fps": 58.627101034078215
+      },
+      {
+        "file": "0000078_05939_d_0000016.jpg",
+        "human_count": 0,
+        "car_count": 2,
+        "detections": 2,
+        "fps": 60.49820147921695
+      }
+    ]
+  },
+  "task04_summary": {
+    "timestamp": "2026-05-14T16:29:01.611605",
+    "processed_images": 80,
+    "unique_humans": 38,
+    "unique_cars": 25,
+    "average_fps": 40.13691854846439,
+    "weights": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/runs/human_car_yolov8n/weights/best.pt",
+    "source": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-test-dev/images",
+    "tracked_images": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_04_tracking/tracked_images",
+    "frames": [
+      {
+        "file": "0000006_00159_d_0000001.jpg",
+        "frame_humans": 0,
+        "frame_cars": 24,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 24,
+        "fps": 2.80502646717786
+      },
+      {
+        "file": "0000006_00611_d_0000002.jpg",
+        "frame_humans": 0,
+        "frame_cars": 2,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 24,
+        "fps": 47.84889319528898
+      },
+      {
+        "file": "0000006_01111_d_0000003.jpg",
+        "frame_humans": 0,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 24,
+        "fps": 54.70783635595056
+      },
+      {
+        "file": "0000006_01275_d_0000004.jpg",
+        "frame_humans": 1,
+        "frame_cars": 14,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 24,
+        "fps": 53.48272842138995
+      },
+      {
+        "file": "0000006_01659_d_0000004.jpg",
+        "frame_humans": 0,
+        "frame_cars": 5,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 24,
+        "fps": 56.85964089611525
+      },
+      {
+        "file": "0000006_02138_d_0000006.jpg",
+        "frame_humans": 0,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 55.17330265403519
+      },
+      {
+        "file": "0000006_02616_d_0000007.jpg",
+        "frame_humans": 0,
+        "frame_cars": 0,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 57.79929195867335
+      },
+      {
+        "file": "0000006_03636_d_0000009.jpg",
+        "frame_humans": 0,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 52.956985688374566
+      },
+      {
+        "file": "0000006_04050_d_0000010.jpg",
+        "frame_humans": 0,
+        "frame_cars": 0,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 58.643858428096244
+      },
+      {
+        "file": "0000006_04309_d_0000011.jpg",
+        "frame_humans": 0,
+        "frame_cars": 4,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 52.22875232509321
+      },
+      {
+        "file": "0000006_05168_d_0000013.jpg",
+        "frame_humans": 1,
+        "frame_cars": 12,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 54.00503499742222
+      },
+      {
+        "file": "0000006_05208_d_0000014.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 48.94552974358724
+      },
+      {
+        "file": "0000006_05575_d_0000016.jpg",
+        "frame_humans": 0,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 54.163355705868206
+      },
+      {
+        "file": "0000006_05999_d_0000017.jpg",
+        "frame_humans": 0,
+        "frame_cars": 2,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 54.38082993086094
+      },
+      {
+        "file": "0000006_06773_d_0000018.jpg",
+        "frame_humans": 0,
+        "frame_cars": 0,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 59.038122568810074
+      },
+      {
+        "file": "0000006_07596_d_0000020.jpg",
+        "frame_humans": 1,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 55.83278082143888
+      },
+      {
+        "file": "0000011_00234_d_0000001.jpg",
+        "frame_humans": 13,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 58.45531935514675
+      },
+      {
+        "file": "0000011_01350_d_0000003.jpg",
+        "frame_humans": 0,
+        "frame_cars": 1,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 53.54250605699594
+      },
+      {
+        "file": "0000011_01955_d_0000004.jpg",
+        "frame_humans": 21,
+        "frame_cars": 2,
+        "unique_humans_so_far": 0,
+        "unique_cars_so_far": 25,
+        "fps": 53.54716501228202
+      },
+      {
+        "file": "0000011_02800_d_0000005.jpg",
+        "frame_humans": 1,
+        "frame_cars": 1,
+        "unique_humans_so_far": 1,
+        "unique_cars_so_far": 25,
+        "fps": 54.55958845484113
+      },
+      {
+        "file": "0000011_04202_d_0000007.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 1,
+        "unique_cars_so_far": 25,
+        "fps": 54.741776471370855
+      },
+      {
+        "file": "0000011_05068_d_0000008.jpg",
+        "frame_humans": 6,
+        "frame_cars": 4,
+        "unique_humans_so_far": 1,
+        "unique_cars_so_far": 25,
+        "fps": 53.96144454787002
+      },
+      {
+        "file": "0000011_06000_d_0000009.jpg",
+        "frame_humans": 12,
+        "frame_cars": 1,
+        "unique_humans_so_far": 1,
+        "unique_cars_so_far": 25,
+        "fps": 55.45312131756684
+      },
+      {
+        "file": "0000011_06595_d_0000010.jpg",
+        "frame_humans": 7,
+        "frame_cars": 9,
+        "unique_humans_so_far": 1,
+        "unique_cars_so_far": 25,
+        "fps": 56.87796831897192
+      },
+      {
+        "file": "0000011_07307_d_0000011.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 2,
+        "unique_cars_so_far": 25,
+        "fps": 52.54044063986289
+      },
+      {
+        "file": "0000011_08299_d_0000012.jpg",
+        "frame_humans": 6,
+        "frame_cars": 13,
+        "unique_humans_so_far": 2,
+        "unique_cars_so_far": 25,
+        "fps": 56.99412852187439
+      },
+      {
+        "file": "0000054_00786_d_0000001.jpg",
+        "frame_humans": 73,
+        "frame_cars": 1,
+        "unique_humans_so_far": 2,
+        "unique_cars_so_far": 25,
+        "fps": 52.27744329217448
+      },
+      {
+        "file": "0000063_00500_d_0000001.jpg",
+        "frame_humans": 38,
+        "frame_cars": 0,
+        "unique_humans_so_far": 2,
+        "unique_cars_so_far": 25,
+        "fps": 51.47453171430814
+      },
+      {
+        "file": "0000063_02235_d_0000003.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 3,
+        "unique_cars_so_far": 25,
+        "fps": 53.21047531214919
+      },
+      {
+        "file": "0000063_03139_d_0000004.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 6,
+        "unique_cars_so_far": 25,
+        "fps": 52.858662543690556
+      },
+      {
+        "file": "0000063_04000_d_0000005.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 7,
+        "unique_cars_so_far": 25,
+        "fps": 54.72143370156345
+      },
+      {
+        "file": "0000063_05000_d_0000006.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 7,
+        "unique_cars_so_far": 25,
+        "fps": 54.35582584654189
+      },
+      {
+        "file": "0000063_06000_d_0000007.jpg",
+        "frame_humans": 5,
+        "frame_cars": 0,
+        "unique_humans_so_far": 10,
+        "unique_cars_so_far": 25,
+        "fps": 50.839918670365904
+      },
+      {
+        "file": "0000063_07000_d_0000008.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 55.396929525467165
+      },
+      {
+        "file": "0000063_08000_d_0000009.jpg",
+        "frame_humans": 49,
+        "frame_cars": 0,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 52.881138958201134
+      },
+      {
+        "file": "0000063_08995_d_0000010.jpg",
+        "frame_humans": 18,
+        "frame_cars": 0,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 52.96247735589251
+      },
+      {
+        "file": "0000063_10000_d_0000011.jpg",
+        "frame_humans": 28,
+        "frame_cars": 0,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 52.13752920874758
+      },
+      {
+        "file": "0000063_11000_d_0000012.jpg",
+        "frame_humans": 30,
+        "frame_cars": 1,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 53.8345922463016
+      },
+      {
+        "file": "0000063_11817_d_0000013.jpg",
+        "frame_humans": 32,
+        "frame_cars": 0,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 54.00114752438507
+      },
+      {
+        "file": "0000063_12500_d_0000014.jpg",
+        "frame_humans": 41,
+        "frame_cars": 0,
+        "unique_humans_so_far": 11,
+        "unique_cars_so_far": 25,
+        "fps": 53.517671026555306
+      },
+      {
+        "file": "0000066_01097_d_0000002.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 15,
+        "unique_cars_so_far": 25,
+        "fps": 48.32269742709137
+      },
+      {
+        "file": "0000073_00377_d_0000001.jpg",
+        "frame_humans": 22,
+        "frame_cars": 2,
+        "unique_humans_so_far": 15,
+        "unique_cars_so_far": 25,
+        "fps": 51.56134188392233
+      },
+      {
+        "file": "0000073_01275_d_0000002.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 17,
+        "unique_cars_so_far": 25,
+        "fps": 51.186458601901485
+      },
+      {
+        "file": "0000073_03155_d_0000004.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 18,
+        "unique_cars_so_far": 25,
+        "fps": 49.034731692736194
+      },
+      {
+        "file": "0000073_04009_d_0000005.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 20,
+        "unique_cars_so_far": 25,
+        "fps": 51.994982484190565
+      },
+      {
+        "file": "0000073_05010_d_0000006.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 23,
+        "unique_cars_so_far": 25,
+        "fps": 53.01652917536627
+      },
+      {
+        "file": "0000073_05999_d_0000007.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 24,
+        "unique_cars_so_far": 25,
+        "fps": 51.778929858967714
+      },
+      {
+        "file": "0000074_01218_d_0000002.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 24,
+        "unique_cars_so_far": 25,
+        "fps": 33.98408090495008
+      },
+      {
+        "file": "0000074_02723_d_0000005.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 26,
+        "unique_cars_so_far": 25,
+        "fps": 11.761759630752262
+      },
+      {
+        "file": "0000074_03738_d_0000007.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 27,
+        "unique_cars_so_far": 25,
+        "fps": 37.599933102198776
+      },
+      {
+        "file": "0000074_05715_d_0000011.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 28,
+        "unique_cars_so_far": 25,
+        "fps": 44.180182157541225
+      },
+      {
+        "file": "0000074_06746_d_0000013.jpg",
+        "frame_humans": 8,
+        "frame_cars": 0,
+        "unique_humans_so_far": 28,
+        "unique_cars_so_far": 25,
+        "fps": 25.104182356780687
+      },
+      {
+        "file": "0000074_07297_d_0000014.jpg",
+        "frame_humans": 29,
+        "frame_cars": 4,
+        "unique_humans_so_far": 28,
+        "unique_cars_so_far": 25,
+        "fps": 33.59401392297139
+      },
+      {
+        "file": "0000074_07850_d_0000015.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 29,
+        "unique_cars_so_far": 25,
+        "fps": 31.459237353842763
+      },
+      {
+        "file": "0000074_08202_d_0000016.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 29,
+        "unique_cars_so_far": 25,
+        "fps": 45.341363107374754
+      },
+      {
+        "file": "0000074_08777_d_0000017.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 30,
+        "unique_cars_so_far": 25,
+        "fps": 45.7230812674729
+      },
+      {
+        "file": "0000074_09738_d_0000019.jpg",
+        "frame_humans": 5,
+        "frame_cars": 0,
+        "unique_humans_so_far": 32,
+        "unique_cars_so_far": 25,
+        "fps": 47.34895116391317
+      },
+      {
+        "file": "0000074_10218_d_0000020.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 32,
+        "unique_cars_so_far": 25,
+        "fps": 44.92606786567814
+      },
+      {
+        "file": "0000074_10730_d_0000021.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 32,
+        "unique_cars_so_far": 25,
+        "fps": 45.100490206248516
+      },
+      {
+        "file": "0000074_11362_d_0000022.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 33,
+        "unique_cars_so_far": 25,
+        "fps": 37.49548882400077
+      },
+      {
+        "file": "0000074_11827_d_0000023.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 33,
+        "unique_cars_so_far": 25,
+        "fps": 48.34537939036426
+      },
+      {
+        "file": "0000074_12322_d_0000024.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 35,
+        "unique_cars_so_far": 25,
+        "fps": 48.46859358730509
+      },
+      {
+        "file": "0000074_13313_d_0000026.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 51.880224954730664
+      },
+      {
+        "file": "0000074_13875_d_0000027.jpg",
+        "frame_humans": 3,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 52.19751539826702
+      },
+      {
+        "file": "0000074_14850_d_0000029.jpg",
+        "frame_humans": 2,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 51.46603046418444
+      },
+      {
+        "file": "0000074_15298_d_0000030.jpg",
+        "frame_humans": 6,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 50.74918484121779
+      },
+      {
+        "file": "0000074_15793_d_0000031.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 51.35601184002537
+      },
+      {
+        "file": "0000074_16210_d_0000032.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 51.832496445845884
+      },
+      {
+        "file": "0000078_00490_d_0000002.jpg",
+        "frame_humans": 0,
+        "frame_cars": 12,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 52.1592848586496
+      },
+      {
+        "file": "0000078_01314_d_0000004.jpg",
+        "frame_humans": 0,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 52.927205245084004
+      },
+      {
+        "file": "0000078_01938_d_0000006.jpg",
+        "frame_humans": 2,
+        "frame_cars": 3,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 54.59372035731775
+      },
+      {
+        "file": "0000078_02363_d_0000007.jpg",
+        "frame_humans": 0,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 58.821654039030406
+      },
+      {
+        "file": "0000078_02778_d_0000008.jpg",
+        "frame_humans": 0,
+        "frame_cars": 6,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 54.26561662698368
+      },
+      {
+        "file": "0000078_03171_d_0000009.jpg",
+        "frame_humans": 3,
+        "frame_cars": 3,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 53.4843960878936
+      },
+      {
+        "file": "0000078_03315_d_0000010.jpg",
+        "frame_humans": 4,
+        "frame_cars": 0,
+        "unique_humans_so_far": 37,
+        "unique_cars_so_far": 25,
+        "fps": 54.34819530023962
+      },
+      {
+        "file": "0000078_03810_d_0000011.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 38,
+        "unique_cars_so_far": 25,
+        "fps": 53.59260434922311
+      },
+      {
+        "file": "0000078_04210_d_0000012.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 38,
+        "unique_cars_so_far": 25,
+        "fps": 54.03032451963571
+      },
+      {
+        "file": "0000078_04546_d_0000013.jpg",
+        "frame_humans": 1,
+        "frame_cars": 0,
+        "unique_humans_so_far": 38,
+        "unique_cars_so_far": 25,
+        "fps": 56.614854073231534
+      },
+      {
+        "file": "0000078_05467_d_0000015.jpg",
+        "frame_humans": 0,
+        "frame_cars": 0,
+        "unique_humans_so_far": 38,
+        "unique_cars_so_far": 25,
+        "fps": 56.75771550194956
+      },
+      {
+        "file": "0000078_05939_d_0000016.jpg",
+        "frame_humans": 0,
+        "frame_cars": 2,
+        "unique_humans_so_far": 38,
+        "unique_cars_so_far": 25,
+        "fps": 58.07594172752811
+      }
+    ]
+  },
+  "metrics": {
+    "precision": 0.5357440618797931,
+    "recall": 0.392458807110761,
+    "map50": 0.38318931831195185,
+    "map5095": 0.1897166111257797,
+    "fps": 54.79721983647497
+  },
+  "prediction_outputs_grid": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/prediction_outputs_grid.jpg",
+  "counting_visualization_grid": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/counting_visualization_grid.jpg",
+  "tracking_outputs_grid": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/tracking_outputs_grid.jpg",
+  "processed_images_results": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/processed_images_results",
+  "strengths": [
+    "Strong integration with trained human/car detector from Task-02.",
+    "Clear counting overlays make scene-level understanding easy.",
+    "Tracking adds temporal consistency and unique-object insights."
+  ],
+  "limitations": [
+    "Per-frame counting can fluctuate in crowded/occluded scenes.",
+    "Tracking IDs may switch under heavy occlusion.",
+    "CPU-only runs reduce throughput for large-scale inference."
+  ],
+  "challenges": [
+    "Small distant humans in aerial views are hard to detect.",
+    "Vehicle appearance diversity can cause class confusion.",
+    "Motion blur and perspective distortion lower confidence."
+  ]
+}

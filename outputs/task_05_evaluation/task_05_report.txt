@@ -1,0 +1,39 @@
+================================================================================
+TASK-05 EVALUATION & VISUALIZATION REPORT
+================================================================================
+Generated: 2026-05-14 16:30:12
+
+Prediction outputs:
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_03_detection_count/prediction_outputs
+- Grid: /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/prediction_outputs_grid.jpg
+
+Counting visualization:
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_03_detection_count/counting_visualization
+- Grid: /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/counting_visualization_grid.jpg
+
+Processed images/results:
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/processed_images_results
+- Tracking grid: /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_05_evaluation/tracking_outputs_grid.jpg
+
+Optional metrics:
+- Precision: 0.5357440618797931
+- Recall: 0.392458807110761
+- mAP@0.5: 0.38318931831195185
+- mAP@0.5:0.95: 0.1897166111257797
+- FPS: 54.79721983647497
+
+Strengths:
+- Strong integration with trained human/car detector from Task-02.
+- Clear counting overlays make scene-level understanding easy.
+- Tracking adds temporal consistency and unique-object insights.
+
+Limitations:
+- Per-frame counting can fluctuate in crowded/occluded scenes.
+- Tracking IDs may switch under heavy occlusion.
+- CPU-only runs reduce throughput for large-scale inference.
+
+Challenges faced:
+- Small distant humans in aerial views are hard to detect.
+- Vehicle appearance diversity can cause class confusion.
+- Motion blur and perspective distortion lower confidence.
+================================================================================
