@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-05-14T14:19:28.381986",
+  "model": "YOLOv8n",
+  "trained_weights": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/runs/human_car_yolov8n/weights/best.pt",
+  "data_yaml": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_processed_data/human_car_yolo/human_car.yaml",
+  "output_grid": "/Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/predictions/sample_predictions.png",
+  "target_classes": {
+    "0": "human",
+    "1": "car"
+  },
+  "split_summaries": {
+    "train": {
+      "source_images": 6471,
+      "processed_images": 899,
+      "source_boxes": 64461,
+      "processed_boxes": 51670,
+      "class_counts": {
+        "1": 27081,
+        "0": 24589
+      }
+    },
+    "val": {
+      "source_images": 548,
+      "processed_images": 180,
+      "source_boxes": 10899,
+      "processed_boxes": 7793,
+      "class_counts": {
+        "1": 3280,
+        "0": 4513
+      }
+    }
+  },
+  "metrics": {
+    "map50": 0.38318931831195185,
+    "map5095": 0.1897166111257797,
+    "precision": 0.5357440618797931,
+    "recall": 0.392458807110761
+  }
+}

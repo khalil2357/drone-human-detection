@@ -1,0 +1,8 @@
+path: /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_processed_data/human_car_yolo
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: human
+  1: car

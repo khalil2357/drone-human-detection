@@ -248,18 +248,35 @@ Comprehensive analysis of the VisDrone dataset including:
 
 ---
 
-### 🔄 Task-02: Data Preprocessing & Augmentation
+### 🤖 Task-02: Model Training
 
-**Status**: ⏳ Coming Soon
+**Status**: ✓ Completed
 
-Preprocessing pipeline including:
-- Annotation format conversion (VisDrone → YOLO)
-- Image normalization and resizing
-- Data augmentation strategies
-- Train/Val/Test split with stratification
-- Class weight calculation
+Training pipeline implemented for the VisDrone human/car subset:
+- YOLOv8n fine-tuning on a filtered 2-class dataset
+- Class mapping: pedestrian + person-with-hard-hat -> human, car + van -> car
+- YOLO-format preprocessing and dataset export
+- Sample prediction visualization from validation images
+- Training report with validation metrics
 
-**Expected Output**: `outputs/task_02_processed_data/`
+**Selected Model**: YOLOv8n
+
+**Why this model**:
+- The dataset annotations are already YOLO-formatted.
+- YOLOv8n is fast enough for drone imagery and small-object detection.
+- It gives the best balance of speed, simplicity, and accuracy for this internship task.
+
+**Outputs**:
+- `outputs/task_02_processed_data/human_car_yolo/`
+- `outputs/task_02_training/`
+
+**Key Results**:
+- 899 training images, 180 validation images
+- mAP@0.5: 0.3832
+- Precision: 0.5357
+- Recall: 0.3925
+
+Generated files include trained weights, sample predictions, a report, and metadata JSON.
 
 ---
 
@@ -302,9 +319,9 @@ opencv-python>=4.5.0          # Computer vision processing
 numpy>=1.20.0                 # Numerical computations
 matplotlib>=3.3.0             # Data visualization
 Pillow>=8.0.0                 # Image processing
-torch>=1.9.0                  # Deep learning framework (CPU/GPU)
-torchvision>=0.10.0           # PyTorch vision utilities
-ultralytics>=8.0.0            # YOLOv8 implementation (coming in Task-03)
+torch>=2.0.0                  # Deep learning framework (CPU/GPU)
+torchvision>=0.15.0           # PyTorch vision utilities
+ultralytics>=8.4.0            # YOLOv8 implementation used in Task-02
 scikit-learn>=0.24.0          # Machine learning utilities
 pandas>=1.1.0                 # Data manipulation
 ```

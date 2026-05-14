@@ -1,0 +1,47 @@
+================================================================================
+TASK-02: MODEL TRAINING REPORT
+================================================================================
+Generated: 2026-05-14 14:19:28
+
+Training approach:
+- Model: YOLOv8n
+- Initialization: pretrained yolov8n.pt weights
+- Objective: fine-tune for human and car detection
+- Class mapping:
+  0 -> human   (pedestrian + person with hard hat)
+  1 -> car     (car + van)
+- Image size: 640
+- Epochs: 3
+- Batch size: 8
+- Device: CPU
+
+Prepared data:
+- Train images: 899
+- Val images: 180
+- Train boxes: 51,670
+- Val boxes: 7,793
+
+Class distribution in processed training data:
+- human: 29,102
+- car: 30,361
+
+Validation metrics:
+- mAP@0.5: 0.3832
+- mAP@0.5:0.95: 0.1897
+- Precision: 0.5357
+- Recall: 0.3925
+
+Sample prediction output:
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/predictions/sample_predictions.png
+
+Why YOLOv8 was selected:
+- The dataset labels are already in YOLO format.
+- It supports fast fine-tuning and inference.
+- It is the most practical choice for drone imagery where small-object detection and speed both matter.
+
+Files generated:
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_processed_data/human_car_yolo/human_car.yaml
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/predictions/sample_predictions.png
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/runs/human_car_yolov8n/weights/best.pt
+- /Users/mdibrahimkhalil/projects/drone-human-detection/outputs/task_02_training/task_02_report.txt
+================================================================================
