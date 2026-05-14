@@ -1,0 +1,30 @@
+# Dataset folders (VERY IMPORTANT)
+VisDrone_Dataset/
+dataset/
+data/
+images/
+labels/
+drive/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Logs
+runs/
+logs/
+
+# OS files
+.DS_Store
+
+# Large output folders
+outputs/
+results/
