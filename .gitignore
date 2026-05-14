@@ -25,6 +25,3 @@ logs/
 # OS files
 .DS_Store
 
-# Large output folders
-outputs/
-results/

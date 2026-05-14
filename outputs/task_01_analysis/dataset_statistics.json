@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-05-14T13:59:56.796362",
+  "dataset_splits": {
+    "train": {
+      "num_images": 6471,
+      "num_labels": 6471,
+      "images_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-train/images",
+      "labels_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-train/labels"
+    },
+    "validation": {
+      "num_images": 548,
+      "num_labels": 548,
+      "images_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-val/images",
+      "labels_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-val/labels"
+    },
+    "test-dev": {
+      "num_images": 1610,
+      "num_labels": 1610,
+      "images_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-test-dev/images",
+      "labels_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-test-dev/labels"
+    },
+    "test-challenge": {
+      "num_images": 1580,
+      "num_labels": 0,
+      "images_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-test-challenge/images",
+      "labels_path": "/Users/mdibrahimkhalil/projects/drone-human-detection/VisDrone_Dataset/VisDrone2019-DET-test-challenge/labels"
+    }
+  },
+  "object_statistics": {
+    "Truck": 5771,
+    "Person (with hard hat)": 6376,
+    "Awning-tricycle": 530,
+    "Van": 28074,
+    "Bicycle": 5845,
+    "Pedestrian": 21006,
+    "Tricycle": 2659,
+    "Bus": 599,
+    "Car": 1302,
+    "Motorcycle": 2940
+  },
+  "bbox_statistics": {
+    "min": 0.6267297792,
+    "max": 84152.2205497344,
+    "mean": 411.7971390024114,
+    "median": 121.20891555839998,
+    "total_count": 75102
+  }
+}
